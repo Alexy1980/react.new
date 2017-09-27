@@ -1,0 +1,36 @@
+{
+  "name": "react.app",
+  "version": "1.0.0",
+  "description": "js application",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexy1980/react.app.git"
+  },
+  "keywords": [
+    "test",
+    "study"
+  ],
+  "author": "Paul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexy1980/react.app/issues"
+  },
+  "homepage": "https://github.com/Alexy1980/react.app#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "eslint": "^3.3.1",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1"
+  }
+}
